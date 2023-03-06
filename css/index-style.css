@@ -2,11 +2,18 @@
     align-items: flex-start;
 }
 
-#top > p {
-    margin: auto;
-    width: auto;
-}
-
 p {
     padding: 0px;
+}
+
+#images {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        display: inline;
+    }
 }
