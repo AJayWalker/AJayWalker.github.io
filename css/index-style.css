@@ -1,0 +1,12 @@
+#top > ul {
+    align-items: flex-start;
+}
+
+#top > p {
+    margin: auto;
+    width: auto;
+}
+
+p {
+    padding: 0px;
+}
