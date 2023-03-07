@@ -33,6 +33,12 @@ nav ul li {
     list-style-type: none;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-bottom: black 2px solid;
+
+}
+
+nav ul li:last-child {
+    border-bottom: none;
 }
 
 nav ul li a {
